@@ -1710,8 +1710,7 @@ plot """
 """)
 
 def usage():
-	print """
-Usage: gitstats [options] <gitpath..> <outputpath>
+	print """Usage: gitstats [options] <gitpath..> <outputpath>
 
 Options:
 -c key=value     Override configuration value
@@ -1719,8 +1718,7 @@ Options:
 Default config values:
 %s
 
-Please see the manual page for more details.
-""" % conf
+Please see the manual page for more details.""" % conf
 
 
 class GitStats:
